@@ -18,6 +18,19 @@ whose fley was white as snowbrush.
 
 ## Run
 
+clone and grab git submodules:
+
+```
+git clone --recursive git@github.com:danemacaulay/poem-modifier.git
+```
+
+or grab them after a regular clone:
+
+```
+git submodule update --init --recursive
+```
+
+
 ### with pipenv
 
 ```
@@ -28,7 +41,7 @@ python modify.py
 ```
 
 
-### without
+### or pip3/python3
 
 ```
 pip install -r requirments.txt
