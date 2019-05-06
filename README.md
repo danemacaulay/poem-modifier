@@ -37,7 +37,7 @@ git submodule update --init --recursive
 pipenv install
 pipenv shell
 python -m spacy download en_core_web_sm
-python modify.py
+python poem_modifier.py
 ```
 
 
@@ -46,7 +46,7 @@ python modify.py
 ```
 pip install -r requirments.txt
 python -m spacy download en_core_web_sm
-python modify.py
+python poem_modifier.py
 ```
 
 
